@@ -40,28 +40,28 @@ def triple_60(num, switch = 60):
                 _a, _b = _b, _a
                        
             if num % _a == 0:
-                __a = num
-                __b = int(_b*num/_a)
-                __c = int(_c*num/_a)
-                _triple_i = [__a, __b, __c]
+                _an = num
+                _bn = int(_b*num/_a)
+                _cn = int(_c*num/_a)
+                _triple_i = [_an, _bn, _cn]
                 if _triple_i not in _triple:
                     _triple.append(_triple_i)
                    
                     
             if num % _b == 0:
-                __b = num
-                __a = int(_a*num/_b)
-                __c = int(_c*num/_b)
-                _triple_i = [__a, __b, __c]
+                _bn = num
+                _an = int(_a*num/_b)
+                _cn= int(_c*num/_b)
+                _triple_i = [_an, _bn, _cn]
                 if _triple_i not in _triple:
                     _triple.append(_triple_i)
                     
                     
             if num % _c == 0:
-                __c = num
-                __b = int(_b*num/_c)
-                __a = int(_a*num/_c)
-                _triple_i = [__a, __b, __c]
+                _cn = num
+                _bn = int(_b*num/_c)
+                _an = int(_a*num/_c)
+                _triple_i = [_an, _bn, _cn]
                 if _triple_i not in _triple:
                     _triple.append(_triple_i)
     for _i in range(len(_triple)):
@@ -88,28 +88,28 @@ def triple_90(num):
                 _a, _b = _b, _a
                        
             if num % _a == 0:
-                __a = num
-                __b = int(_b*num/_a)
-                __c = int(_c*num/_a)
-                _triple_i = [__a, __b, __c]
+                _an = num
+                _bn = int(_b*num/_a)
+                _cn = int(_c*num/_a)
+                _triple_i = [_an, _bn, _cn]
                 if _triple_i not in _triple:
                     _triple.append(_triple_i)
                    
                     
             if num % _b == 0:
-                __b = num
-                __a = int(_a*num/_b)
-                __c = int(_c*num/_b)
-                _triple_i = [__a, __b, __c]
+                _bn = num
+                _an = int(_a*num/_b)
+                _cn = int(_c*num/_b)
+                _triple_i = [_an, _bn, _cn]
                 if _triple_i not in _triple:
                     _triple.append(_triple_i)
                     
                     
             if num % _c == 0:
-                __c = num
-                __b = int(_b*num/_c)
-                __a = int(_a*num/_c)
-                _triple_i = [__a, __b, __c]
+                _cn = num
+                _bn = int(_b*num/_c)
+                _an = int(_a*num/_c)
+                _triple_i = [_an, _bn, _cn]
                 if _triple_i not in _triple:
                     _triple.append(_triple_i)
     for _i in range(len(_triple)):
