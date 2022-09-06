@@ -11,8 +11,9 @@ The following results are not proven as far as I know. Therfore they are conject
 - Every natural number >2 is part at least of one pythagoren triple.
 - Every natural number >2 exept 4 is part at least of one trojan triple.
 ## Theoretical background
-The unit circle x<sup>2</sup> + y<sup>2</sup> = 1 consist of rational anf irrational points. If a line through the point (-1,0) is intersected with the unit circle, the second intersection point will have rational coordinates. These coordinates correspond to a pythagorean triple as follows. The denominator of the fraction is c. The numeraters are a and b.   
+The unit circle x<sup>2</sup> + y<sup>2</sup> = 1 consists of rational and irrational points. If a line through the point (-1,0) is intersected with the unit circle, the second intersection point will have rational coordinates. These coordinates correspond to a pythagorean triple as follows. The denominator of the fraction is c. The numeraters are a and b.   
 The trojan triples are calculated the same way except the line is intersected with the unit ellipse (again my expression) x<sup>2</sup> + y<sup>2</sup> - xy = 1.
+![The unit ellipse]()
 ## About my expressions
 Though some mathematicians call the trojan triples antipythagorean triples, I don't use that term, because that expression is missleading. The prefix "anti" indicates that somthing is the opposite of another. The angles 60° and 120° look more like the trojans of a planet, which share the orbit with the planet, but leading or trailing about 60° in relation to the planet. The trojan triples are 30° ahead ore 30° behind the dominant 90°-angle.  
 I call x<sup>2</sup> + y<sup>2</sup> - xy = 1 unit ellipse, because like the unit circle it is a conic section without any factors. Therfore this ellipse has 6 integer points: (1,1), (1,0), (0,1), (0,-1), (-1,0) and (-1,-1). Like the unit circle it is symmetrical to the median. There are more nice properties of this ellipse which make it to the role model of all ellipses.
