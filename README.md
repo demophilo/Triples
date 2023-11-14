@@ -1,15 +1,22 @@
 # Triples
 ## Introduction
 This small programm defines functions to calculate pythagorian triples and trojan triples to a given natural number. Pythagorean triples are natural numbers, which satisfy the equation a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.  
-Trojan triples (myexpression) are natural numbers, which satisfy the equation a<sup>2</sup> + b<sup>2</sup> - a*b = c<sup>2</sup> or the equation a<sup>2</sup> + b<sup>2</sup> + a*b = c<sup>2</sup>. If the edges of a triangle are a pythagorean triple there is one 90°-angle. If the edges of a triangle are a trojan triple there is one 60°-angle or one 120°-angle.  
+Trojan triples (expression invented by me) are natural numbers, which satisfy the equation a<sup>2</sup> + b<sup>2</sup> - a*b = c<sup>2</sup> which I call first Trojan theorem or the equation a<sup>2</sup> + b<sup>2</sup> + a*b = c<sup>2</sup> (second Trojan theorem. If the edges of a triangle are a pythagorean triple there is one 90°-angle. If the edges of a triangle are a trojan triple there is one 60°-angle fullfilling the fiert Trojan theorem or one 120°-angle fullfilling the second Trojan theorem.  
 These functions are used either to help teachers finding beautiful exercises for their students ore to investigate such triangles.
 
-## Some results
+## Definitions
+- A trojan triangle has at least one 60°-angle or one 120°-angle.
+- Similar to the right triangle a hypothenuse in a trojan triangle is an edge opposite of a 60°-angle or 120°-angle
+
+## Some results of the ivastigation
+### Pythagorean triples
 The following results are not proven as far as I know. Therfore they are conjectures.
 - Prime numbers >2 are part of one or two pythagorean triples.
 - The sum of triples of twin primes is exactly 3. For the twin primes 3 and 5 the triple (3, 4, 5) is counted once for 3 and once for 5.
 - Every natural number >2 is part at least of one pythagoren triple.
+### Trojan Triples
 - Every natural number >2 exept 4 is part at least of one trojan triple.
+- Definition: Trojan triples with the same hypothenuse 
 ## Theoretical background
 The unit circle x<sup>2</sup> + y<sup>2</sup> = 1 consists of rational and irrational points. If a line through the point (-1,0) is intersected with the unit circle, the second intersection point will have rational coordinates. These coordinates correspond to a pythagorean triple as follows. The denominator of the fraction is c. The numeraters are a and b.   
 The trojan triples are calculated the same way except the line is intersected with the unit ellipse (again my expression) x<sup>2</sup> + y<sup>2</sup> - xy = 1 (see figure and [geogebra investigations]https://www.geogebra.org/classic/qeqhvfsw)).
